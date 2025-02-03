@@ -5,8 +5,8 @@ services:
         container_name: postges_test
         image: postgres:14.4-alpine
         ports:
-            -   "1337:5432"
+            - "1337:5432"
         environment:
             POSTGRES_USER: "test"
             POSTGRES_PASSWORD: "12345"
-            POSTGRES_DB: "testDB"
+            POSTGRES_DB: "testDB" 
